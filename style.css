@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 24px;
+    background-image: url(./images/anya.jpg);
+    color: white;
+  }
+  img {
+    vertical-align: middle;
+    text-align: center;
+
+  }
+  .buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+}
+  .container {
+    position: relative;
+    
+  }
+  .next {
+    right: 37.5%;
+    border-radius: 3px 0 0 3px;
+
+  }
+  .kep{
+    position: relative;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: auto;
+    font-size: 100px;
+  }
+  .listaa{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 150px;
+
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 32;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .mySlides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+h2{
+    text-align: center;
+}
+
+.szoveg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+}
+.header {
+    
+    padding: 50px;
+    font-family: 'Genos', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nevem:hover {
+    color: red;
+    font-size: 300%;
+    transition: transform .1s;
+
+  }
+.rolam{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.rolam:hover {
+    font-family: 'Righteous', cursive;
+    font-size: 110%;
+    transition: all 250ms ease-in-out;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff0000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 30px;
+    opacity: 40%;
+    
+  }
+  .kapcs{
+    border-radius: 30px;
+    border-top: 20px black;
+    border-bottom: 20px black;
+    border-left: 20px black;
+    border-right: 20px black;
+  }
+  .hidsz{
+    text-align: center;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 30px;
+    border-style: solid;
+    border-right: 20px;
+    border-left: 20px;
+    
+    
+  }
+  .hidsz2{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 30px;
+    border-style: solid;
+    border-right: 20px;
+    border-left: 20px;
+  }
+  .hidsz3{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 30px;
+    border-style: solid;
+    border-right: 20px;
+    border-left: 20px;
+  }
+  .ref{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .szm{
+    text-align: center;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #6e0000;
+    border-radius: 30px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+ .ajaj{
+    background-color: red;
+    opacity: 30%;
+    border-style: dotted;
+    border-radius: 30px;
+    height: 100px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+  .szv{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
