@@ -274,3 +274,14 @@ ul {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+.egy{
+  text-align: center;
+  color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kett{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
